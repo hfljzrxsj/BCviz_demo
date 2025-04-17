@@ -26,7 +26,7 @@ npx http-server --port 80
 
 or
 ```bash
-npm exec -- http-server --port 80
+npm exec http-server -- --port 80
 ```
 
 ### 2. serve
@@ -37,7 +37,7 @@ npx serve -p 80
 
 or
 ```bash
-npm exec -- serve -p 80
+npm exec serve -- -p 80
 ```
 
 
@@ -49,7 +49,7 @@ npx vite preview --open --outDir . --clearScreen false -d --port 80
 
 or
 ```bash
-npm exec -- vite preview --open --outDir . --clearScreen false -d --port 80
+npm exec vite -- preview --open --outDir . --clearScreen false -d --port 80
 ```
 
 ## 2. Python
