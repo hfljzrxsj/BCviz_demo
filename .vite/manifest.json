@@ -21,8 +21,8 @@
       "_react-dom-tVoZXIl-.js"
     ]
   },
-  "_@mui--7KgB3kF.js": {
-    "file": "js/@mui--7KgB3kF.js",
+  "_@mui-7qhyk-VF.js": {
+    "file": "js/@mui-7qhyk-VF.js",
     "imports": [
       "_react-oik9md-E.js",
       "_@babel-_Kefij6Y.js",
@@ -35,8 +35,8 @@
   "_@popperjs-v-la0Vhf.js": {
     "file": "js/@popperjs-v-la0Vhf.js"
   },
-  "_@remix-run-wEAHOncH.js": {
-    "file": "js/@remix-run-wEAHOncH.js"
+  "_@remix-run-phvj9XUc.js": {
+    "file": "js/@remix-run-phvj9XUc.js"
   },
   "_ahooks-QEuSOHm6.js": {
     "file": "js/ahooks-QEuSOHm6.js",
@@ -100,20 +100,20 @@
       "_@babel-_Kefij6Y.js"
     ]
   },
-  "_react-router-I1NCjZ8i.js": {
-    "file": "js/react-router-I1NCjZ8i.js",
-    "imports": [
-      "_react-oik9md-E.js",
-      "_@remix-run-wEAHOncH.js"
-    ]
-  },
-  "_react-router-dom-GFem2kaG.js": {
-    "file": "js/react-router-dom-GFem2kaG.js",
+  "_react-router-dom-ma-xgFTe.js": {
+    "file": "js/react-router-dom-ma-xgFTe.js",
     "imports": [
       "_react-oik9md-E.js",
       "_react-dom-tVoZXIl-.js",
-      "_react-router-I1NCjZ8i.js",
-      "_@remix-run-wEAHOncH.js"
+      "_react-router-m2kkV1nU.js",
+      "_@remix-run-phvj9XUc.js"
+    ]
+  },
+  "_react-router-m2kkV1nU.js": {
+    "file": "js/react-router-m2kkV1nU.js",
+    "imports": [
+      "_react-oik9md-E.js",
+      "_@remix-run-phvj9XUc.js"
     ]
   },
   "_react-toastify-!~{00t}~.js": {
@@ -157,21 +157,24 @@
   },
   "index.html": {
     "css": [
-      "css/main-vnv34RW1.css"
+      "css/main-FL51AgSy.css"
     ],
-    "file": "js/main-1q20tPYx.js",
+    "dynamicImports": [
+      "pages/BCviz_Edit/index.tsx"
+    ],
+    "file": "js/main-12mHC1KY.js",
     "imports": [
       "_react-oik9md-E.js",
       "_ahooks-QEuSOHm6.js",
       "_react-fast-compare-751UTDWK.js",
       "_echarts-Vo_PYHjZ.js",
-      "_@mui--7KgB3kF.js",
+      "_@mui-7qhyk-VF.js",
       "_immer-U6fk-Zvt.js",
       "_react-dom-tVoZXIl-.js",
       "_react-toastify-5bXptfeX.js",
       "_@algolia-kof8UNv8.js",
-      "_react-router-dom-GFem2kaG.js",
-      "_react-router-I1NCjZ8i.js",
+      "_react-router-dom-ma-xgFTe.js",
+      "_react-router-m2kkV1nU.js",
       "_@babel-_Kefij6Y.js",
       "_tslib-xX1bOrSW.js",
       "_lodash-C7I7b_wX.js",
@@ -182,10 +185,43 @@
       "_stylis-W9rcUKMO.js",
       "_@popperjs-v-la0Vhf.js",
       "_scheduler-Xt5_ASe0.js",
-      "_@remix-run-wEAHOncH.js"
+      "_@remix-run-phvj9XUc.js"
     ],
     "isEntry": true,
     "src": "index.html"
+  },
+  "pages/BCviz_Edit/index.tsx": {
+    "css": [
+      "css/index-xXpgjlQs.css"
+    ],
+    "file": "js/index-j1de9YOE.js",
+    "imports": [
+      "_react-oik9md-E.js",
+      "index.html",
+      "_ahooks-QEuSOHm6.js",
+      "_react-router-m2kkV1nU.js",
+      "_@mui-7qhyk-VF.js",
+      "_@babel-_Kefij6Y.js",
+      "_react-fast-compare-751UTDWK.js",
+      "_echarts-Vo_PYHjZ.js",
+      "_zrender-6ibt0cUB.js",
+      "_immer-U6fk-Zvt.js",
+      "_react-dom-tVoZXIl-.js",
+      "_scheduler-Xt5_ASe0.js",
+      "_react-toastify-5bXptfeX.js",
+      "_@algolia-kof8UNv8.js",
+      "_react-router-dom-ma-xgFTe.js",
+      "_@remix-run-phvj9XUc.js",
+      "_tslib-xX1bOrSW.js",
+      "_lodash-C7I7b_wX.js",
+      "_react-transition-group-QTzb2ErI.js",
+      "_@emotion-ia0lOm4d.js",
+      "_hoist-non-react-statics-y4nWN7rF.js",
+      "_stylis-W9rcUKMO.js",
+      "_@popperjs-v-la0Vhf.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "pages/BCviz_Edit/index.tsx"
   },
   "service-worker.ts": {
     "file": "service-worker.js",
