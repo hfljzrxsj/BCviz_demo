@@ -154,12 +154,12 @@
   },
   "index.html": {
     "css": [
-      "css/main-mL6hDe23.css"
+      "css/main-26ISVryj.css"
     ],
     "dynamicImports": [
       "pages/BCviz_Edit/index.tsx"
     ],
-    "file": "js/main-I6BHfZ8A.js",
+    "file": "js/main-UO4Pd_eg.js",
     "imports": [
       "_react-oik9md-E.js",
       "_ahooks-5_89LEPF.js",
@@ -190,7 +190,7 @@
     "css": [
       "css/index-xXpgjlQs.css"
     ],
-    "file": "js/index-orn7coAe.js",
+    "file": "js/index-4-0hhdU0.js",
     "imports": [
       "_react-oik9md-E.js",
       "index.html",
